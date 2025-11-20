@@ -128,6 +128,19 @@ header {
     margin: 0 auto 2.5rem;
 }
 
+.inline-link {
+    color: var(--primary);
+    font-weight: 600;
+    transition: var(--transition);
+    text-decoration: underline;
+    text-decoration-color: transparent;
+}
+
+.inline-link:hover {
+    color: var(--secondary);
+    text-decoration-color: var(--secondary);
+}
+
 .hero-buttons {
     display: flex;
     justify-content: center;
@@ -528,4 +541,5 @@ footer {
     code {
         font-size: 0.85rem;
     }
+
 }
